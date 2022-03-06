@@ -12,7 +12,7 @@
 # HISTORY:
 # Date      	By	Comments
 # ----------	---	---------------------------------------------------------
-# 2022-03-06	AO	Added getting infomaion about each car. This can be optimised using an array. Will implement soons
+# 2022-03-06	AO	Added getting infomaion about each car. This can be optimised using an array and checking if data taken in matches what is expected. Often a part of the array is missing which messes up the data. This might be okay in a large sample size, unsure
 #---------------------------------------------------------------------#
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as uReq
